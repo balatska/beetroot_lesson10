@@ -1,0 +1,56 @@
+/*board*/
+.board {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+    border: 10px solid #808080;
+    font-size: 80px;
+}
+
+.board>div {
+    width: 100%;
+    height: 25%;
+}
+
+.first-line>div,
+.second-line>div {
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    position: absolute;
+    background-color: #d0c3dd;
+}
+
+.first-line>div:nth-child(2n+1),
+.second-line>div:nth-child(2n) {
+    background-color: #6e406e;
+}
+
+.square-2 {
+    left: 25%;
+}
+
+.square-3 {
+    left: 50%;
+}
+
+.square-4 {
+    left: 75%;
+}
+
+/*board end*/
+
+.first-line {
+    color: #fceeee;
+}
+
+.chess-container {
+    height: 100%;
+    display: flex;
+    
+}
+
+i {
+    margin: auto;
+}
